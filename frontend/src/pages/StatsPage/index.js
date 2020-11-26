@@ -1,5 +1,12 @@
 import React from 'react';
-import { render } from 'react-dom';
+
+import Header from '../../components/Header';
+import ShortenerService from '../../services/shortenerService';
+
+import { Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 class StatsPage extends React.Component {
   constructor(props) {
